@@ -5,7 +5,7 @@ class SkillCard extends StatelessWidget {
   final String docId;
   final VoidCallback onDelete;
 
-  const SkillCard({
+  const SkillCard({super.key, 
     required this.skillName,
     required this.docId,
     required this.onDelete,
